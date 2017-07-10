@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules/
+
+# Exclude everything in dist except assets
+dist/*
+!dist/assets
+
+# TypeScript loader cache
+.awcache
+
+# Intellij IDE
+.idea
